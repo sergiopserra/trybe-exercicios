@@ -1,0 +1,38 @@
+div:hover {
+    border: 1px solid red;
+}
+
+body :nth-child(3) {
+    color: blue;
+}
+body :nth-child(4) {
+    color: green;
+}
+body :nth-child(5) {
+    color: yellow;
+    height: 100px;
+}
+body :nth-child(6) {
+    color: red;
+}
+body :nth-child(7) {
+    color: magenta;
+}
+div h3:nth-child(1) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div h3:nth-child(odd) {
+    font-style: italic;
+}
+div h3:nth-child(2) {
+    font-weight: 1000px;
+}
+div h3:nth-child(3) {
+    font-size: large;
+}
+div h3:nth-child(4) {
+    font-weight: lighter;
+}
+div h3:nth-child(5) {
+    font-style: oblique;
+}
