@@ -1,0 +1,38 @@
+div:hover {
+    border: 1px solid red;
+}
+
+body :nth-child(3) {
+    color: blue;
+}
+body :nth-child(3) h3 {
+    font-style: italic;
+}
+body :nth-child(4) {
+    color: green;
+}
+body :nth-child(4) h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body :nth-child(5) {
+    color: yellow;
+    height: 100px;
+}
+body :nth-child(5) h3 {
+    font-weight: bold;
+}
+body :nth-child(6) {
+    color: red;
+}
+body :nth-child(6) h3 {
+    font-size: 20px;
+}
+body :nth-child(7) {
+    color: magenta;
+}
+body :nth-child(7) h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body :nth-child(2n+3) h3 {
+    font-style: italic;
+}
